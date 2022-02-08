@@ -1,0 +1,3 @@
+JavaScript中的对象：
+var obj=new Object();
+obj就是一个对象。 对象即一个容器,有属性和方法。

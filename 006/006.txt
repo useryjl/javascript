@@ -1,0 +1,4 @@
+对象字面量：{ }
+使用对象字面量,创建javaScript对象时,可不使用new Object();
+var obj={ };  和 var obj=new Object(); 作用相同。
+

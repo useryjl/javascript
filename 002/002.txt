@@ -1,0 +1,8 @@
+六种数据类型:
+五种基本数据类型，String、Number、boolean、null、undefined，一个引用数据类型Object；
+NULL是一种基本数据类型，代表空对象，其typeof null 的值是Object；
+undefined 即没定义，声明变量但是没为变量赋初值；
+
+typeof运算符： 用来判断变量的数据类型，用法： typeof a;
+
+
