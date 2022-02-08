@@ -1,0 +1,33 @@
+一、this 
+    this指向一个对象,谁调用该方法,this就是谁。
+    以函数形式调用： this指向window对象。
+    以方法形式调用:  this就是调用该方法的对象。
+
+
+二、使用工厂方法创建对象
+    //麻烦
+    var obj={
+        name:"yjl",
+        age:22,
+        fun:fun
+    };
+
+
+    var obj2={
+        name:"yjl2",
+        age:22,
+        fun:fun
+    };
+
+    //批量创建对象
+    function createObject(name,age){
+        var obj=new object();
+         obj.name:name,
+         obj.age:age,
+         obj.fun:fun(){
+             console.log(this.name);
+         }
+         return obj;
+    }
+
+    var obj=createObject('yjl',88);
