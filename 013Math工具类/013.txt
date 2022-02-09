@@ -1,0 +1,8 @@
+一、Math工具类
+    常用方法:
+    Math.abs();    绝对值
+    Math.ceil();   向上取整
+    Math.floor();  向下取整
+    Math.round();  四舍五入
+    Math.random(); 0-1之间随机数 ;x-y的随机数  Math.random()*(y-x)+x
+    
